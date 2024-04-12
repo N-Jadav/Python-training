@@ -1,0 +1,28 @@
+**Project Name: Python War Game Simulator**
+
+**Project Description:**
+
+The Python War Game Simulator is a Python object-oriented programming (OOP) project that simulates a simplified version of the card game War. In this game, two players compete against each other, each starting with half of a standard deck of cards. They take turns drawing a card from their respective decks, compare the ranks of the drawn cards, and the player with the higher-ranked card wins both cards. The game continues until one player runs out of cards.
+
+**Project Components:**
+
+1. **Card Class:**
+   - The Card class will represent individual playing cards.
+   - Each card object will have three attributes: suit, rank, and associated value.
+   - This class will be responsible for instantiating card objects with the specified attributes.
+
+2. **Deck Class:**
+   - The Deck class will represent a deck of cards.
+   - It will be composed of multiple Card objects.
+   - The Deck class's `__init__` method will utilize the Card class to populate the deck with cards.
+
+3. **Player Class:**
+   - The Player class will represent a player in the game.
+   - Each player should be capable of holding instances of cards in their hand.
+   - Players should be able to add and remove cards from their hand.
+   - The Player class will be designed to be flexible enough to accommodate adding one card or multiple cards at a time.
+
+4. **Game Logic:**
+   - The Game file will contain the main logic for executing the War game.
+   - It will handle the flow of the game, including dealing cards to players, comparing cards, determining the winner of each round, and updating players' hands accordingly.
+   - The game will continue until one player runs out of cards, at which point the game will end, and the winner will be declared.
